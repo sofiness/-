@@ -14,12 +14,22 @@
         <div class="col col-md-4 offset-md-4">
             <div class="card text-center">
                 <div class="card-header">
-                    <p class="m-0">Вопрос №<span id="orderNumberField">5</span></p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#questionCollapse" aria-expanded="false" aria-controls="questionCollapse">
+                        Show Question
+                    </button>
+                    <div class="collapse" id="questionCollapse">
+                        <p class="m-0">Вопрос №<span id="orderNumberField">5</span></p>
+                    </div>
                 </div>
                 <div class="card-body">
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <h3 class="card-title m-0"><span id="answerField">Вы загадали число 5?</span></h3>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#answerCollapse" aria-expanded="false" aria-controls="answerCollapse">
+                        Show Answer
+                    </button>
+                    <div class="collapse" id="answerCollapse">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <h3 class="card-title m-0"><span id="answerField">Вы загадали число 5?</span></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
